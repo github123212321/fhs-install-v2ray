@@ -57,6 +57,7 @@ or
 ```
 # curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh
 # curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh
+# curl -O https://raw.githubusercontent.com/github123212321/fhs-install-v2ray/master/install-dat-enhanced-release.sh
 ```
 
 ## 使用
@@ -67,12 +68,21 @@ or
 
 ```
 # bash install-release.sh
+# bash <(curl -L -s https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
 ```
 
 ### 安裝最新發行的 geoip.dat 和 geosite.dat
 
 ```
 # bash install-dat-release.sh
+# bash <(curl -L -s https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh)
+```
+
+### 安装最新发行的增强版 geoip.dat 和 geosite.dat
+
+```
+# bash install-dat-enhanced-release.sh
+# bash <(curl -L -s https://raw.githubusercontent.com/github123212321/fhs-install-v2ray/master/install-dat-enhanced-release.sh)
 ```
 
 ### 移除 V2Ray
