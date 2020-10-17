@@ -12,7 +12,7 @@
 
 # 0 0 * * * /usr/local/bin/install-dat-release > /dev/null 2>&1
 
-V2RAY="/usr/local/share/v2ray"
+V2RAY="/usr/local/share/v2ray/"
 DOWNLOAD_LINK_GEOIP="https://github.com/Loyalsoldier/v2ray-rules-dat/raw/release/geoip.dat"
 DOWNLOAD_LINK_GEOSITE="https://github.com/Loyalsoldier/v2ray-rules-dat/raw/release/geosite.dat"
 
